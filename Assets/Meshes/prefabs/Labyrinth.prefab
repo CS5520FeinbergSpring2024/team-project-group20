@@ -26,7 +26,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d92e4117f466945b6a80626edd1a5965,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Assets/Meshes/prefabs/Labyrinth.prefab
       value: 0
+=======
+      value: -0.58
+>>>>>>> f97999bbed9cb6b19a933be78e5bed5a15e4b447:Assets/Labyrinth.prefab
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d92e4117f466945b6a80626edd1a5965,
         type: 3}
