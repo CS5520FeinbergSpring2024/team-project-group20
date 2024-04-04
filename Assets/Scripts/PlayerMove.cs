@@ -15,12 +15,29 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 movement = Vector3.zero;
+        if(SystemInfo.supportsAccelerometer) {
+            movement = accelerometerMovement();
+        } else {
+           movement = wasdMovement();
+        }
+        transform.Translate(movement * speed * Time.deltaTime, Space.World);
+    }
+
+    Vector3 accelerometerMovement() {
+        float horizontal = Input.acceleration.x;
+        float vertical = Input.acceleration.y;
+        return new Vector3(horizontal, vertical, 0.0f);
+
+    }
+
+    Vector3 wasdMovement() {
         float horizontal = Input.GetAxis("Horizontal"); 
         float vertical = Input.GetAxis("Vertical"); 
 
         
-        Vector3 movement = new Vector3(horizontal, vertical, 0.0f);
+        return new Vector3(horizontal, vertical, 0.0f);
 
-        transform.Translate(movement * speed * Time.deltaTime, Space.World);
+        
     }
 }
