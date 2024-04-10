@@ -5,8 +5,5 @@ using UnityEngine.SceneManagement;
 
 public class Spikes : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
-    {
-        SceneManager.LoadScene(2);
-    }
+
 }
