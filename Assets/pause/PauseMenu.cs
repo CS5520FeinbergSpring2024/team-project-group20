@@ -22,19 +22,21 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
 
         // start timer
+        EventManager.OnTimerStart();
     }
 
     public void Restart()
     {
         pauseMenu.SetActive(false);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Map1");
         Time.timeScale = 1f;
+
     }
 
     public void Quit()
     {
         pauseMenu.SetActive(false);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("HomeScreen");
         Time.timeScale = 1f;
 
     }

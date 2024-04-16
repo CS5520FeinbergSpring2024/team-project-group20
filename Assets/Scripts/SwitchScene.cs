@@ -14,7 +14,6 @@ public class SwitchScene : MonoBehaviour
     {
         startButton = GameObject.Find("StartButton").GetComponent<Button>();
         startButton.onClick.AddListener(StartGame);
-        
     }
 
     // Update is called once per frame
@@ -26,6 +25,7 @@ public class SwitchScene : MonoBehaviour
     private void StartGame()
     {
         SceneManager.LoadScene("Map1");
+        
     }
 
 }

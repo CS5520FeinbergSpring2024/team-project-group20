@@ -14,14 +14,14 @@ public class LevelCompleteMenuScript : MonoBehaviour
     public void Restart()
     {
         
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Map1");
         Time.timeScale = 1f;
     }
 
     public void Quit()
     {
         
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("HomeScreen");
         Time.timeScale = 1f;
 
     }

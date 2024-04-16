@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour
     
     void Start()
     {
-
+        EventManager.OnTimerStart();
     }
 
     // Update is called once per frame
