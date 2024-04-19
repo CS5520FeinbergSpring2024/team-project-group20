@@ -19,6 +19,7 @@ public class LevelManager : MonoBehaviour
 
     public void restartLevel()
     {
+        Debug.Log("Restart Level.");
         StartCoroutine(goToStart());
         EventManager.OnTimerUpdate(60.0f);
         EventManager.OnTimerStart();

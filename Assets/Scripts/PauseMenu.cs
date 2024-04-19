@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class PauseMenu : MonoBehaviour
 {
 
     [SerializeField] GameObject pauseMenu;
+    [SerializeField] private String currentSceneName;
 
     public void Pause()
     {
@@ -28,7 +30,7 @@ public class PauseMenu : MonoBehaviour
     public void Restart()
     {
         pauseMenu.SetActive(false);
-        SceneManager.LoadScene("Map1");
+        SceneManager.LoadScene(currentSceneName);
         Time.timeScale = 1f;
 
     }
