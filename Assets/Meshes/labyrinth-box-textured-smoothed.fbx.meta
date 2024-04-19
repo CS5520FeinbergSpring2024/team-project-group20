@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: labyrinth_shader_2
-    second: {fileID: 2100000, guid: dd202787ed57d4c6a9d73a2828e3bb10, type: 2}
+    second: {fileID: 2100000, guid: 5402fdedfe6b54c79aad08ae403ca05f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
