@@ -38,7 +38,7 @@ public class PauseMenu : MonoBehaviour
     public void Quit()
     {
         pauseMenu.SetActive(false);
-        SceneManager.LoadScene("HomeScreen");
+        SceneManager.LoadScene("LevelSelector");
         Time.timeScale = 1f;
 
     }

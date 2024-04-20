@@ -7,13 +7,14 @@ using UnityEngine.UI;
 
 public class SwitchScene : MonoBehaviour
 {
-    private Button startButton;
+    // private Button startButton;
+    [SerializeField] private String newSceneName;
     
     // Start is called before the first frame update
     void Start()
     {
-        startButton = GameObject.Find("StartButton").GetComponent<Button>();
-        startButton.onClick.AddListener(StartGame);
+        // startButton = GameObject.Find("StartButton").GetComponent<Button>();
+        // startButton.onClick.AddListener(StartGame);
     }
 
     // Update is called once per frame
@@ -22,9 +23,9 @@ public class SwitchScene : MonoBehaviour
         
     }
 
-    private void StartGame()
+    public void SwitchScenes()
     {
-        SceneManager.LoadScene("Map1");
+        SceneManager.LoadScene(newSceneName);
         
     }
 
