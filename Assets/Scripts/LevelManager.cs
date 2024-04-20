@@ -7,7 +7,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] GameObject levelCompleteMenu;
     [SerializeField] GameObject player;
     [SerializeField] GameObject start;
-    [SerializeField] GameObject timerText;
+    [SerializeField] public GameObject timerText;
     
     
 
