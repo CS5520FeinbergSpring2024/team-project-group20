@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/HomeScreen.unity
     guid: ced7012f4b5dd414fb2d91182249dcbc
   - enabled: 1
     path: Assets/Scenes/Map1.unity
     guid: ca5c4c964c3fa7e4ebcc721d4b37ccf6
+  - enabled: 1
+    path: Assets/Scenes/Map2.unity
+    guid: 5c1d93022aafc46e59f0dca9bab5f569
+  - enabled: 1
+    path: Assets/Scenes/LevelSelector.unity
+    guid: 60a563936560141e9bac97ad0b610510
   m_configObjects: {}
