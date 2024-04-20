@@ -3890,7 +3890,7 @@ PrefabInstance:
     - target: {fileID: 5788246374994211720, guid: 5d914c1769c924b4fb54096f6516646b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6680002
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5788246374994211720, guid: 5d914c1769c924b4fb54096f6516646b,
         type: 3}
@@ -4583,6 +4583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSceneName: Map1
+  levelManager: {fileID: 2053417117}
 --- !u!222 &7494594512197874972
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class LevelSelectLoadScores : MonoBehaviour
             {
                 int levelNumber = int.Parse(match.Groups[1].Value);
                 levelTextObjects[levelNumber] = child.gameObject;
-                child.gameObject.GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetString("LevelCompleted_" + levelNumber, "---");
+                child.gameObject.GetComponent<TextMeshProUGUI>().text = "Best: " +  PlayerPrefs.GetString("LevelCompleted_" + levelNumber, "---");
             }
         }
     }
