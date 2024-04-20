@@ -4,8 +4,22 @@ using UnityEngine;
 
 public class ScoreManagerScript : MonoBehaviour
 {
-    void Awake() {
-        DontDestroyOnLoad(this.gameObject);
+    // void Awake() {
+    //     DontDestroyOnLoad(this.gameObject);
+    // }
+
+    public static ScoreManagerScript instance;
+    
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }else if(instance != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public static void LevelCompleted(int levelID, string score)

@@ -29,4 +29,9 @@ public class SwitchScene : MonoBehaviour
         
     }
 
+    public void SetNewSceneName(String sceneName)
+    {
+        newSceneName = sceneName;
+    }
+
 }
