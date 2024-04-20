@@ -20,8 +20,7 @@ public class LevelManager : MonoBehaviour
     public void restartLevel()
     {
         StartCoroutine(goToStart());
-        EventManager.OnTimerUpdate(60.0f);
-        EventManager.OnTimerStart();
+
     }
 
     public void endLevel() {
@@ -37,7 +36,7 @@ public class LevelManager : MonoBehaviour
         player.transform.position = new Vector3(start.transform.position.x, start.transform.position.y, player.transform.position.z);
         player.GetComponent<MeshRenderer>().enabled = true;
         timerText.SetActive(true);
-        EventManager.OnTimerUpdate(60.0f);
+        EventManager.OnTimerUpdate(0.0f);
         EventManager.OnTimerStart();
     }
 }
