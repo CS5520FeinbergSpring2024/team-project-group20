@@ -41,7 +41,7 @@ public class LevelCompleteMenuScript : MonoBehaviour
     public void Quit()
     {
         
-        SceneManager.LoadScene("HomeScreen");
+        SceneManager.LoadScene("LevelSelector");
         Time.timeScale = 1f;
 
     }
