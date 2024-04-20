@@ -18,7 +18,7 @@ public class LevelCompleteMenuScript : MonoBehaviour
     void Start(){
         Time.timeScale = 0f;
         Match match = Regex.Match(currentSceneName, @"Map(\d+)");
-        string oldHighScore = PlayerPrefs.GetString("LevelCompleted_" + match.Groups[1].Value, "99:00");
+        string oldHighScore = PlayerPrefs.GetString("LevelCompleted_" + match.Groups[1].Value, "59:00");
         string newScore = levelManager.timerText.GetComponent<TMPro.TextMeshProUGUI>().text;
         TimeSpan newTime = TimeSpan.ParseExact(newScore, "mm':'ss", null);
         TimeSpan oldTime = TimeSpan.ParseExact(oldHighScore, "mm':'ss", null);

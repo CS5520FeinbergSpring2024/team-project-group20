@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18181904, g: 0.22389112, b: 0.2865278, a: 1}
+  m_IndirectSpecularColor: {r: 0.18181919, g: 0.22389159, b: 0.28652838, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -635,6 +635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSceneName: Map2
+  levelManager: {fileID: 1303020480}
 --- !u!114 &706550657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3071,6 +3072,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3829284362120504177, guid: 5d914c1769c924b4fb54096f6516646b,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3829284362120504177, guid: 5d914c1769c924b4fb54096f6516646b,
         type: 3}
       propertyPath: levelManager

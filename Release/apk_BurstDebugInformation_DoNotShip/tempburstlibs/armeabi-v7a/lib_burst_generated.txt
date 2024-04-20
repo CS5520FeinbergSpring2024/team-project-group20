@@ -26,6 +26,7 @@ Library: S:\Samdroid\Notebook\School\AppDev\labyrinth\Temp\BurstOutput\tempburst
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=S:\Samdroid\Notebook\School\AppDev\labyrinth\Temp\Burst
+--debug=Full
 --key-folder=S:/Samdroid/Software/Unity/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=S:\Samdroid\Notebook\School\AppDev\labyrinth\Library\Burst
 --output=S:\Samdroid\Notebook\School\AppDev\labyrinth\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
@@ -58,6 +59,7 @@ Library: S:\Samdroid\Notebook\School\AppDev\labyrinth\Temp\BurstOutput\tempburst
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=S:\Samdroid\Notebook\School\AppDev\labyrinth\Temp\Burst
+--debug=Full
 --key-folder=S:/Samdroid/Software/Unity/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=S:\Samdroid\Notebook\School\AppDev\labyrinth\Library\Burst
 --output=S:\Samdroid\Notebook\School\AppDev\labyrinth\Temp\BurstOutput\tempburstlibs\armeabi-v7a\lib_burst_generated
