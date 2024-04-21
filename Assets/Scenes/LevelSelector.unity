@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BEST TIME: --'
+  m_text: 'Best: --'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7900fbc07c9754c3e858d82e676e4fa0, type: 2}
   m_sharedMaterial: {fileID: -2248605963795142348, guid: 7900fbc07c9754c3e858d82e676e4fa0,
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BEST TIME: --'
+  m_text: 'Best: --'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7900fbc07c9754c3e858d82e676e4fa0, type: 2}
   m_sharedMaterial: {fileID: -2248605963795142348, guid: 7900fbc07c9754c3e858d82e676e4fa0,
