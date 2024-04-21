@@ -240,6 +240,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1368995724860283715, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+        type: 3}
+      propertyPath: levelManager
+      value: 
+      objectReference: {fileID: 2053417117}
+    - target: {fileID: 1368995724860283715, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+        type: 3}
+      propertyPath: newTimeDisplay
+      value: 
+      objectReference: {fileID: 1456533269}
+    - target: {fileID: 1368995724860283715, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+        type: 3}
+      propertyPath: bestTimeDisplay
+      value: 
+      objectReference: {fileID: 1633689542}
     - target: {fileID: 7278979801882652291, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
         type: 3}
       propertyPath: m_Name
@@ -2466,6 +2481,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1125001356979525331}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1456533269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5292668757247152784, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 125964897}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1514826054
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,6 +2671,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8ed4929d2d08c472ca5ac12d2b2b1907,
     type: 3}
   m_PrefabInstance: {fileID: 1554153183615829869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1633689542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3868750242309722231, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 125964897}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1680327067 stripped
 GameObject:
@@ -4718,6 +4745,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentSceneName: Map1
   levelManager: {fileID: 2053417117}
+  bestTimeDisplay: {fileID: 0}
+  newTimeDisplay: {fileID: 0}
 --- !u!222 &7494594512197874972
 CanvasRenderer:
   m_ObjectHideFlags: 0

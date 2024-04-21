@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18181904, g: 0.22389112, b: 0.2865278, a: 1}
+  m_IndirectSpecularColor: {r: 0.18181919, g: 0.22389159, b: 0.28652838, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -390,6 +390,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582220540}
   m_CullTransparentMesh: 1
+--- !u!1 &635765071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3868750242309722231, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5145160311487538962}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &706550655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7278979801882652291, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
@@ -771,6 +777,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906699325}
   m_CullTransparentMesh: 1
+--- !u!1 &926152708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5292668757247152784, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5145160311487538962}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &957644095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,10 +2329,25 @@ PrefabInstance:
       propertyPath: levelManager
       value: 
       objectReference: {fileID: 1303020480}
+    - target: {fileID: 1368995724860283715, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+        type: 3}
+      propertyPath: newTimeDisplay
+      value: 
+      objectReference: {fileID: 926152708}
+    - target: {fileID: 1368995724860283715, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+        type: 3}
+      propertyPath: bestTimeDisplay
+      value: 
+      objectReference: {fileID: 635765071}
     - target: {fileID: 7278979801882652291, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
         type: 3}
       propertyPath: m_Name
       value: LevelComplete
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278979801882652291, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8154547108975407921, guid: 2540f0a2064b44fd1a0ab8c288b8e6a0,
         type: 3}

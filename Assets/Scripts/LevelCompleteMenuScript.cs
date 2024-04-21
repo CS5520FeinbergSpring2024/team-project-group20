@@ -14,6 +14,9 @@ public class LevelCompleteMenuScript : MonoBehaviour
 
     [SerializeField] private String currentSceneName;
     [SerializeField] LevelManager levelManager;
+    [SerializeField] GameObject bestTimeDisplay;
+    [SerializeField] GameObject newTimeDisplay;
+
 
     void Start(){
         Time.timeScale = 0f;
@@ -26,6 +29,8 @@ public class LevelCompleteMenuScript : MonoBehaviour
         {
             PlayerPrefs.SetString("LevelCompleted_" + match.Groups[1].Value, newScore);
         }
+        bestTimeDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = "Best Time: " + PlayerPrefs.GetString("LevelCompleted_" + match.Groups[1].Value, "59:00");
+        newTimeDisplay.GetComponent<TMPro.TextMeshProUGUI>().text = "Time: " + newScore;
 
         
     }
