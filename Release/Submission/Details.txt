@@ -1,0 +1,24 @@
+https://github.com/CS5520FeinbergSpring2024/team-project-group20
+
+Name: Elizabeth Hwang
+Github: 'lizzyhwang'
+Email: 'hwang.eli@northeastern.edu'
+Contributions: Worked primarily on graphics, object modeling, and modal displays. This includes creating the 3D labyrinth models,
+the homescreen, the level select screen, spikes, start and end points, restart screen, and lighting. Also added scene switching logic. 
+
+Name: Samuel Tomlinson
+Github: 'taillow40'
+Email: tomlinson.sa@northeastern.edu
+Contributions: Worked primarily on game functionality. This includes the movement of the marble, functionality on the end level menu,
+saving scores, and animations on death. Also managed the apk, fixing random bugs that popped up when building for android. 
+
+Name: Ryan McDermott
+Github: 'rmcdermott1000'
+Email: 'mcdermott.r@northeastern.edu'
+Contributions: Worked on filling in the gaps where things needed to be completed. This includes the pause functionality, scene restart
+logic, and timer.  
+
+Tour Link: <>
+
+Test Information: None, install the APK and its ready to play!
+
